@@ -1,0 +1,31 @@
+{
+  "name": "whis",
+  "version": "0.0.1",
+  "description": "nodejs service which uses orbs to scrape a site and sends fb messages",
+  "main": "./dist/index.js",
+  "scripts": {
+    "whis": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/venkatvellaichamy/whis.git"
+  },
+  "author": "Venkat Vellaichamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatvellaichamy/whis/issues"
+  },
+  "homepage": "https://github.com/venkatvellaichamy/whis#readme",
+  "dependencies": {
+    "node-crontab": "0.0.8",
+    "orbs": "0.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
